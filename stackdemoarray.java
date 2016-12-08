@@ -42,7 +42,7 @@ class stackdemoarray
 		sd.push(2);
 		sd.push(3);
 		sd.push(4);
-		sd.push(5);
+		sd.push(2);
 		
 		display();
 		System.out.println();
