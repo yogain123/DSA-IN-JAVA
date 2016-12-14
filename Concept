@@ -18,5 +18,22 @@ For queue:
     
 LevelOrderTraversalOfBinaryTree   : https://www.youtube.com/watch?v=9PHkM0Jri_4
 
+****--------------------------------------****
+XOR of all elements gives us odd occurring element
+****--------------------------------------****
+
+
+
+
+Find the Missing Number
+You are given a list of n-1 integers and these integers are in the range of 1 to n. There are no duplicates in list. One of the integers is missing in the list. Write an efficient code to find the missing integer.
+
+Algorithm:
+
+1. Get the sum of numbers 
+       total = n*(n+1)/2
+2  Subtract all the numbers from sum and
+   you will get the missing number.
+
 
     
