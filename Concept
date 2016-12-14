@@ -1,0 +1,16 @@
+For queue:
+    if you are putting interger then user
+    PriorityQueue<Integer> q= new PriorityQueue<Integer>()
+    ...
+    q.offer(2);
+    q.poll();
+    int k = q.peek();
+    
+    
+    if you are putting Link(Node) then user
+    Queue<Node> q= new PriorityQueue<Node>()
+    ...
+    q.offer(2);
+    q.poll();
+    int k = q.peek();
+    
