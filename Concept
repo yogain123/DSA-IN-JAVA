@@ -34,6 +34,19 @@ Algorithm:
        total = n*(n+1)/2
 2  Subtract all the numbers from sum and
    you will get the missing number.
+   
+   
+ CHEAKLIST
+ ---------
+ Reverselinkedlist
+ ReverseLinkedList in group of given size
+ Next Greater element linkedlist
+ 
+ All Tree Program
+ 
+All Array Program
+ 
+ 
 
 
 
