@@ -1,0 +1,88 @@
+import java.io.*;
+import java.util.*;
+
+class rover
+{
+	public static void main(String... args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		int limitX = sc.nextInt();
+		int limitY = sc.nextInt();
+		int x=sc.nextInt();
+		int y= sc.nextInt();
+		char dir = sc.next().charAt(0);
+		sc.nextLine();
+		String commands = sc.nextLine();
+		
+		
+		getDirection(x,y,dir,commands,limitX,limitY);
+		
+		
+	}
+	
+	public static void getDirection(int x, int y, char dir,String commands,int limitX, int limitY)
+	{
+		for(int i=0;i<commands.length();i++)
+		{
+		char moves=commands.charAt(i);
+		if(moves == 'M')
+		{
+			
+			
+			if(dir == 'N' && y<limitY)
+				y++;
+			else if(dir == 'S' && y>0)
+				y--;
+			else if(dir == 'W' && x>0)
+				x--;
+			else if(dir =='E' && x<limitX)
+				x++;
+			
+		}
+		else if(moves == 'L')
+		{
+			switch(dir)
+			{
+				case 'N':
+					dir = 'W';
+					break;
+				case 'S':
+					dir = 'E';
+					break;
+				case 'E':
+					dir = 'N';
+					break;
+				case 'W':
+					dir = 'S';
+					break;
+			}
+		}
+		
+		else if(moves == 'R')
+		{
+			switch(dir)
+			{
+				case 'N':
+					dir = 'E';
+					break;
+				case 'E':
+					dir = 'S';
+					break;
+				case 'S':
+					dir = 'W';
+					break;
+				case 'W':
+					dir = 'N';
+					break;
+			}
+			
+		}
+		
+		
+		}
+		System.out.println(x+" "+y+" "+dir);
+	}
+}
