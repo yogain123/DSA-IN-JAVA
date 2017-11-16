@@ -32,9 +32,8 @@ http://www.geeksforgeeks.org/radix-sort/           RADIX SORT
 
 
 
-
-
-
-
-
+Algorithm
+---------
+https://www.youtube.com/watch?v=sSrmFnNm5lc   : Merge Sort
+https://www.youtube.com/watch?v=j8N6J9awGMM   : Quick Sort
 
