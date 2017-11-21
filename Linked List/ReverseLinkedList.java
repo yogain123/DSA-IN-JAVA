@@ -1,3 +1,5 @@
+//https://www.youtube.com/watch?v=sYcOK51hl-A
+
 class ReverseLinkedList
 {
 	static Node head;
